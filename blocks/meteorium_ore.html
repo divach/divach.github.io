@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="../blocks.css" />
+		<title>meteorium_ore</title>
+	</head>
+	<body>
+		<h1>meteorium_ore</h1>
+		<img src="../textures/runite_ore.png" class="block-icon" /><br>
+		<h2>Placing this block</h2>
+		You can place this block by using 1 of these items:
+		<ul class="block-items">
+			<li class="block-item"><a href="../items/meteorium_ore.html"><img src="../textures/runite_ore.png" class="item-icon" />Meteorium ore</a></li>
+		</ul>
+		<h2>Sounds</h2>
+		<h2>Mining speed</h2>
+		Default mining speed: 0 (fast)
+		<h2>Drops</h2>
+		<ul class="custom-block-drops">
+			<li class="custom-block-drop">
+				Silk touch is forbidden<br>
+				You must use one of the following items:
+				<ul class="required-drop-items">
+					<li class="required-vanilla-item">Diamond pickaxe or a custom item of this type</li>
+					<li class="required-vanilla-item">Netherite pickaxe or a custom item of this type</li>
+				</ul>
+				Fortune enchantment level must be at most 3<br>
+				The following items will be dropped:
+				<ul class="custom-block-drop-items">
+					<li class="custom-block-drop-item">10% chance to get <a href="../items/meteorium_crystal.html"><img src="../textures/runite.png" class="mini-item-icon" /></a> x 3</li>
+					<li class="custom-block-drop-item">30% chance to get <a href="../items/meteorium_crystal.html"><img src="../textures/runite.png" class="mini-item-icon" /></a> x 2</li>
+					<li class="custom-block-drop-item">60% chance to get <a href="../items/meteorium_crystal.html"><img src="../textures/runite.png" class="mini-item-icon" /></a> x 1</li>
+				</ul>
+			</li>
+			<li class="custom-block-drop">
+				Silk touch is required<br>
+				You must use one of the following items:
+				<ul class="required-drop-items">
+					<li class="required-vanilla-item">Diamond pickaxe or a custom item of this type</li>
+					<li class="required-vanilla-item">Netherite pickaxe or a custom item of this type</li>
+				</ul>
+				Fortune enchantment level must be at most 0<br>
+				The following items will be dropped:
+				<ul class="custom-block-drop-items">
+					<li class="custom-block-drop-item">100% chance to get <a href="../items/meteorium_ore.html"><img src="../textures/runite_ore.png" class="mini-item-icon" /></a> x 1</li>
+				</ul>
+			</li>
+		</ul>
+		<h2>World generation</h2>
+		<h3>Ore</h3>
+		<ul>
+			<li>
+				This block has 100% chance to be generated in ore veins that can replace the following blocks:
+				<ul>
+					<li>End stone</li>
+				</ul>
+				These ore veins can only be generated between Y=-64 and Y=320.<br>
+				There is 50% chance that 2 to 5 veins will be spawned per chunk.<br>
+				The expected size of these veins is 1 to 8 blocks.<br>
+				These can be generated in all biomes.
+				These can be generated in all worlds.
+			</li>
+		</ul>
+	</body>
+</html>

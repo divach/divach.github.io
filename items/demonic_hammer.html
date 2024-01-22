@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="../items.css" />
+		<title>Demonic hammer</title>
+	</head>
+	<body>
+		<h1>Demonic hammer</h1>
+		<img src="../textures/dragon_hammer.png" class="item-icon" /><br>
+		<h2>Information</h2>
+		Internal name: demonic_hammer<br>
+		Maximum stacksize: 1<br>
+		<h2>Tool properties</h2>
+		This item is unbreakable<br>
+		<h2>Basic properties</h2>
+		Attribute modifiers:
+		<ul class="attribute-modifiers">
+			<li class="attribute-modifier">Add 15.0 generic.attackDamage in Mainhand</li>
+			<li class="attribute-modifier">Add factor -0.7 generic.attackSpeed in Mainhand</li>
+		</ul>
+		<h2>Special properties</h2>
+		Requires both hands to hold<br>
+		Can't be destroyed on the ground (for instance by lava or a cactus)<br>
+Attack effects:
+		<ul class="attack-effect-group-list">
+			<li class="attack-effect-group">
+				Chance: 5%
+				Victim effects:
+				<ul class="attack-effect-list">
+					<li class="attack-effect">
+						Drops weapon or shield
+					</li>
+				</ul>
+			</li>
+			<li class="attack-effect-group">
+				Chance: 75%
+				Victim effects:
+				<ul class="attack-effect-list">
+					<li class="attack-effect">
+						Gets Slow 1 for 10 ticks
+					</li>
+					<li class="attack-effect">
+						Gets Blindness 1 for 20 ticks
+					</li>
+					<li class="attack-effect">
+						Hears sound Sound(Entity dragon fireball explode (1.13 to 1.20),volume=1.0,pitch=1.0)
+					</li>
+				</ul>
+			</li>
+		</ul>
+		Players won't lose this item upon death
+		Upon breaking a block, this item destroys equivalent blocks in a 5x5x5 cube, without costing extra durability!
+		<h2>Obtaining this item</h2>
+		<link rel="stylesheet" href="../recipe.css" />
+		<h3>Crafting this item<h3>
+		<h4>Shaped recipes</h4>
+		<table class="recipe-table">
+			<tbody>
+				<tr>
+					<td class="recipe-cell recipe-slot ingredient-slot">
+						<a href="../items/rubium_ingot.html" >
+							<img src="../textures/red_ingot.png" class="recipe-image result-image" />
+						</a>
+					</td>
+					<td class="recipe-cell recipe-slot ingredient-slot">
+						Nether star
+					</td>
+					<td class="recipe-cell recipe-slot ingredient-slot">
+						<a href="../items/rubium_ingot.html" >
+							<img src="../textures/red_ingot.png" class="recipe-image result-image" />
+						</a>
+					</td>
+					<td></td>
+					<td class="recipe-cell recipe-slot result-slot">
+					</td>
+					<td class="recipe-cell recipe-slot result-slot">
+					</td>
+					<td class="recipe-cell recipe-slot result-slot">
+					</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="recipe-cell recipe-slot ingredient-slot">
+						<a href="../items/rubium_ingot.html" >
+							<img src="../textures/red_ingot.png" class="recipe-image result-image" />
+						</a>
+					</td>
+					<td class="recipe-cell recipe-slot ingredient-slot">
+						Stick
+					</td>
+					<td class="recipe-cell recipe-slot ingredient-slot">
+						<a href="../items/rubium_ingot.html" >
+							<img src="../textures/red_ingot.png" class="recipe-image result-image" />
+						</a>
+					</td>
+					<td class="recipe-cell" ><img class="recipe-image" src="../recipe-arrow.png" /></td>
+					<td class="recipe-cell recipe-slot result-slot">
+					</td>
+					<td class="recipe-cell recipe-slot result-slot">
+					</td>
+					<td class="recipe-cell recipe-slot result-slot">
+					</td>
+					<td></td>
+					<td class="recipe-cell recipe-slot result-slot">
+						<a href="../items/demonic_hammer.html" >
+							<img src="../textures/dragon_hammer.png" class="recipe-image result-image" />
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="recipe-cell recipe-slot ingredient-slot">
+					</td>
+					<td class="recipe-cell recipe-slot ingredient-slot">
+						Stick
+					</td>
+					<td class="recipe-cell recipe-slot ingredient-slot">
+					</td>
+					<td></td>
+					<td class="recipe-cell recipe-slot result-slot">
+					</td>
+					<td class="recipe-cell recipe-slot result-slot">
+					</td>
+					<td class="recipe-cell recipe-slot result-slot">
+					</td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+<br><br>
+	</body>
+</html>

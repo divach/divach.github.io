@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="../items.css" />
+		<title>Dragon hammer</title>
+	</head>
+	<body>
+		<h1>Dragon hammer</h1>
+		<img src="../textures/dragon_hammer1.png" class="item-icon" /><br>
+		<h2>Information</h2>
+		Internal name: dragon_hammer<br>
+		Maximum stacksize: 1<br>
+		<h2>Tool properties</h2>
+		Maximum durability: 2048<br>
+		Breaking blocks decreases its durability by 1<br>
+		Hitting entities decreases its durability by 1<br>
+		<h2>Basic properties</h2>
+		Attribute modifiers:
+		<ul class="attribute-modifiers">
+			<li class="attribute-modifier">Add 13.0 generic.attackDamage in Mainhand</li>
+			<li class="attribute-modifier">Add factor -0.7 generic.attackSpeed in Mainhand</li>
+		</ul>
+		<h2>Special properties</h2>
+		Requires both hands to hold<br>
+		Can't be destroyed on the ground (for instance by lava or a cactus)<br>
+Attack effects:
+		<ul class="attack-effect-group-list">
+			<li class="attack-effect-group">
+				Chance: 5%
+				Victim effects:
+				<ul class="attack-effect-list">
+					<li class="attack-effect">
+						Drops weapon or shield
+					</li>
+				</ul>
+			</li>
+			<li class="attack-effect-group">
+				Chance: 75%
+				Victim effects:
+				<ul class="attack-effect-list">
+					<li class="attack-effect">
+						Gets Slow 1 for 200 ticks
+					</li>
+					<li class="attack-effect">
+						Gets Blindness 1 for 200 ticks
+					</li>
+					<li class="attack-effect">
+						Hears sound Sound(Entity dragon fireball explode (1.13 to 1.20),volume=1.0,pitch=1.0)
+					</li>
+				</ul>
+			</li>
+		</ul>
+		Upon breaking a block, this item destroys equivalent blocks whose manhattan distance to the original block is at most 4, without costing extra durability!
+		<h2>Obtaining this item</h2>
+		<h3>Dropped by mobs</h3>
+		This item can be obtained by killing one of the following mobs:
+		<h4>Ender dragon</h4>
+		Chances:
+		<ul class="drop-chances">
+			<li class="drop-chance">20% to get 1</li>
+		</ul>
+		<link rel="stylesheet" href="../recipe.css" />
+		<h3>Crafting this item<h3>
+		<h4><a href="../containers/anvilupgrade.html">upgrade recipes</a></h4>
+		<table class="recipe-table">
+			<tbody>
+				<tr>
+					<td class="recipe-cell recipe-slot ingredient-slot">
+						<a href="../items/diamond_hammer.html" >
+							<img src="../textures/diamond_hammer.png" class="recipe-image result-image" />
+						</a>
+					</td>
+					<td class="recipe-cell recipe-slot ingredient-slot">
+						Dragon egg
+					</td>
+					<td class="recipe-cell recipe-slot unused-container-slot"></td>
+					<td class="recipe-cell recipe-slot unused-container-slot"></td>
+					<td class="recipe-cell recipe-slot result-slot">
+					</td>
+					<td class="recipe-cell recipe-slot unused-container-slot"></td>
+					<td class="recipe-cell recipe-slot unused-container-slot"></td>
+					<td class="recipe-cell recipe-slot unused-container-slot"></td>
+					<td class="recipe-cell recipe-slot unused-container-slot"></td>
+					<td class="recipe-cell" ><img class="recipe-image" src="../recipe-arrow.png" /></td>
+					<td class="recipe-cell recipe-slot result-slot">
+					</td>
+					<td class="recipe-cell recipe-slot result-slot">
+					</td>
+					<td class="recipe-cell recipe-slot unused-container-slot"></td>
+					<td class="recipe-cell recipe-slot unused-container-slot"></td>
+					<td class="recipe-cell recipe-slot result-slot">
+						<style>
+							.hover-recipe-list-bbdce7c1-faa2-45d3-8378-6937b8979477 {
+								display: none;
+							}
+
+							.result-bbdce7c1-faa2-45d3-8378-6937b8979477:hover + .hover-recipe-list-bbdce7c1-faa2-45d3-8378-6937b8979477 {
+								display: inline;
+							}
+						</style>
+						<div class="result-bbdce7c1-faa2-45d3-8378-6937b8979477">
+							<a href="../items/dragon_hammer.html" >
+								<img src="../textures/dragon_hammer1.png" class="recipe-image result-image" />
+							</a>
+						</div>
+						<div class="hover-recipe-list hover-recipe-list-bbdce7c1-faa2-45d3-8378-6937b8979477 ">
+							100% chance to get <a href="../items/dragon_hammer.html"><img src="../textures/dragon_hammer1.png" class="mini-item-icon" /></a> x 1<br>
+						</div>
+					</td>
+					<td class="recipe-cell recipe-slot unused-container-slot"></td>
+					<td class="recipe-cell recipe-slot unused-container-slot"></td>
+					<td class="recipe-cell recipe-slot unused-container-slot"></td>
+					<td class="recipe-cell recipe-slot unused-container-slot"></td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
